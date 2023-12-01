@@ -1,5 +1,6 @@
-import "./styles/querys/Headers/Headers1512.css";
-import "./styles/querys/Headers/Headers1440.css";
+import "./styles/querys/Headers/HeadersQueryDesktop.css";
+import "./styles/querys/Headers/HeadersQueryTablet.css";
+import "./styles/querys/Headers/HeadersQueryiPhone.css";
 
 
 const Header = () => {

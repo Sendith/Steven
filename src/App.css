@@ -1,11 +1,24 @@
 main{
     background: #ECE7E1;
-   
+    
 }
-
+body, html {
+    
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
 a{
     font-size: inherit;
     text-decoration: none; /* Quitar subrayado */
             color: inherit; /* Usar el color heredado del elemento padre */
             cursor: pointer; 
 }
+
+@font-face {
+    font-family: 'Grandslang roman';
+    src: url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407cfd884bbba461245_GrandSlang%20Roman.woff2') format('woff2'), url('https://uploads-ssl.webflow.com/5343bca08039b78d170002c4/60e1a407ad63e87cd8d907ef_GrandSlang%20Roman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
