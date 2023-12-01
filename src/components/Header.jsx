@@ -40,9 +40,9 @@ const Header = () => {
         <img className="star10" src="\img\stars\black_star.png" alt="" />
 
     <div className="divsArrow">
-    <img className="arrowUno" src="\public\img\img__header\arrows.png" alt="" />
-        <img className="arrowDos" src="\public\img\img__header\arrows.png" alt="" />
-        <img className="arrowTres" src="\public\img\img__header\arrows.png" alt="" />
+    <img className="arrowUno" src="\img\img__header\arrows.png" alt="" />
+        <img className="arrowDos" src="\img\img__header\arrows.png" alt="" />
+        <img className="arrowTres" src="\img\img__header\arrows.png" alt="" />
     </div>
        
 
