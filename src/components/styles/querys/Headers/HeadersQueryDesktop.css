@@ -1,6 +1,5 @@
 @media only screen and (min-width: 992px)  {
     main{
-        
         width: 100%;
         height: 100vh;
         display: grid;
@@ -49,13 +48,10 @@
         align-items: center;
     }
 .Hello{
-    
-
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
 width: 1200px;
-
 flex-shrink: 0;
 font-family: Jomolhari;
 font-size: 11.979vw;
@@ -64,9 +60,7 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 11.5px;
 }
-
 .h3__StevenBlanco{
- 
 grid-area: sb;
 width: 500px;
 height: 51px;
@@ -78,9 +72,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 .h4__Looking{
-    
 grid-area: lo;
 width: 18.875vw;
 height: 29px;
@@ -135,7 +127,6 @@ margin-top: 15px;
     width: 2.604vw;
     height: 2.396vw;
 }
-
 .circulo{
 margin-top: 10px;
 grid-area: ci;
@@ -162,7 +153,7 @@ filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     height: 38.073vw;
     flex-shrink: 0;
     position: absolute;
-    right: 5px; /* Inicialmente, la imagen está en el borde izquierdo */
+    right: 0px; /* Inicialmente, la imagen está en el borde izquierdo */
     transition: left 0.5s ease;
         }
 .star1{
@@ -235,7 +226,6 @@ height: 18px;
 flex-shrink: 0;
 animation: moverAbajo 250s infinite alternate;
 }
-
 /*KeyFrames*/
 @keyframes moverIzquierda {
     to {
@@ -247,42 +237,36 @@ animation: moverAbajo 250s infinite alternate;
         transform: translateX(800px); /* Mueve hacia la derecha */
     }
 }
-
 /* Definición de la animación arriba */
 @keyframes moverArriba {
     to {
         transform: translateY(-600px); /* Mueve hacia arriba */
     }
 }
-
 /* Definición de la animación abajo */
 @keyframes moverAbajo {
     to {
         transform: translateY(600px); /* Mueve hacia abajo */
     }
 }
-
 /*Diagonales*/
 @keyframes moverDiagonal1 {
     to {
         transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
     }
 }
-
 /* Definición de la animación diagonal 2 (arriba-derecha) */
 @keyframes moverDiagonal2 {
     to {
         transform: translate(550px, -550px); /* Mueve hacia arriba-derecha */
     }
 }
-
 /* Definición de la animación diagonal 3 (abajo-izquierda) */
 @keyframes moverDiagonal3 {
     to {
         transform: translate(-700px, 700px); /* Mueve hacia abajo-izquierda */
     }
 }
-
 /* Definición de la animación diagonal 4 (abajo-derecha) */
 @keyframes moverDiagonal4 {
     to {
@@ -333,9 +317,6 @@ animation: moverAbajo 250s infinite alternate;
     }
 }
     /*Navegador 100% Completo*/
-
-
-
     nav{
         grid-area: i;
         width: 150px;
@@ -389,7 +370,6 @@ animation: moverAbajo 250s infinite alternate;
         transition: text-decoration 0.3s;
     }
     .h2__linkedin{
-       
         display: flex;
         align-items: center;
         justify-content: center;
@@ -445,7 +425,6 @@ animation: moverAbajo 250s infinite alternate;
         font-weight: 400;
         line-height: normal;
     }
-   
     ._dos{
         display: flex;
         align-items: center;

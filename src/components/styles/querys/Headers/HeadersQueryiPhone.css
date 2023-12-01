@@ -4,7 +4,7 @@
         width: 100%;
         height: 100vh;
         display: grid;
-        grid-template-columns: 10% 90%;
+        grid-template-columns: 15% 90%;
         grid-template-rows: 100%;
         grid-template-areas: "i de";
     }
@@ -58,7 +58,7 @@ width: 1200px;
 
 flex-shrink: 0;
 font-family: Jomolhari;
-font-size: 9.979vh;
+font-size: 10.979vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -158,8 +158,8 @@ filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .liquid{
     grid-area: lid;
-    width: 70.073vw;;
-    height: 70.073vw;
+    width: 72.073vw;;
+    height: 72.073vw;
     flex-shrink: 0;
     position: absolute;
     right: 0px; /* Inicialmente, la imagen está en el borde izquierdo */
@@ -375,7 +375,7 @@ animation: moverAbajo 250s infinite alternate;
     .h2__Steven{
         position: relative;
     
-    right: 40px;
+    right: 35px;
         width: 121px;
         height: 29px;
         transform: rotate(-90deg);
@@ -473,7 +473,497 @@ animation: moverAbajo 250s infinite alternate;
         grid-area:d;
         color: #000;
         font-family: Jomolhari;
-        font-size: 12px;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .line{
+        grid-area: li;
+        position: relative;
+    margin-left: 45%;
+    right: 40px;    
+    height: 20.686vh;
+    }
+  
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    main{
+       
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 15% 90%;
+        grid-template-rows: 100%;
+        grid-template-areas: "i de";
+    }
+    /*Contend*/
+    .Apres{
+        height: 100vh;
+        width: 100%;
+        grid-area: de;
+        margin-right: 200px;
+        display: grid;
+        grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas:
+         ". . . . . . . . . lid . . . . . . . . . ."
+         ". st1 . . . . . . . . . . . . . . . . . ."
+         ". . . st10 . . . st2 . . . . . . . . . . . ."
+         "hello hello hello hello . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . st3 . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . st7 . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . st8 . . ."
+         "sb . . . . git . . st4 . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         "lo . ci . . . . . . . . . . . . . . . . ."
+         "pr pr pr . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . da . . . ."
+         "cu . . . . . . . . . . st6 . . . . st9 . . ."
+         ". . st5 . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+    }
+    .Contenedor__hello{
+        grid-area: hello;
+        width: 1200px;
+        height: 271px;
+        overflow: hidden;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+.Hello{
+    
+
+overflow: hidden;
+animation: moverAbajoArriba 2s ease forwards;
+color: #1A1818;
+width: 1200px;
+
+flex-shrink: 0;
+font-family: Jomolhari;
+font-size: 10.979vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 11.5px;
+}
+
+.h3__StevenBlanco{
+ 
+grid-area: sb;
+width: 500px;
+height: 51px;
+flex-shrink: 0;
+color: #000;
+font-family: Jomolhari;
+font-size: 2.25vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.h4__Looking{
+    
+grid-area: lo;
+width: 18.875vw;
+height: 29px;
+flex-shrink: 0;
+color: #000;
+font-family: Jomolhari;
+font-size: 0.781vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Product{
+    
+grid-area: pr;
+width: 18.875vw;
+height: 96px;
+flex-shrink: 0;
+color: #000;
+
+font-family: Jomolhari;
+font-size: 0.781vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Current{
+    
+grid-area: cu;
+width: 300px;
+height: auto;
+flex-shrink: 0;
+color: #000;
+
+font-family: Jomolhari;
+font-size: 0.781vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #000;
+margin-top: 15px;
+
+}
+.Detail{
+ text-decoration: underline;
+}
+.Detail:hover{
+    text-decoration: line-through;
+}
+.git__header{
+    grid-area: git;
+    margin-left: 18px;
+    width: 3.604vw;
+    height: 3.396vw;
+}
+
+.circulo{
+
+grid-area: ci;
+width: 6px;
+height: 6px;
+flex-shrink: 0;
+animation: parpadeo 1s ease-in-out infinite;
+background-color: #000;
+stroke-width: 1px;
+border-radius: 50%;
+filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@keyframes parpadeo {
+    25%, 100% {
+        opacity: 1; /* Comienzo y fin: opacidad completa */
+    }
+    50% {
+        opacity: 0.4; /* Mitad del tiempo: opacidad nula */
+    }
+}
+.liquid{
+    grid-area: lid;
+    width: 42.073vw;;
+    height: 42.073vw;
+    flex-shrink: 0;
+    position: absolute;
+    right: 0px; /* Inicialmente, la imagen está en el borde izquierdo */
+    transition: left 0.5s ease;
+        }
+.star1{
+grid-area: st1;
+width: 30px;
+height: 29px;
+flex-shrink: 0;
+animation: moverDerecha 250s infinite alternate;
+}
+.star2{
+    grid-area: st2;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverDiagonal3 250s infinite alternate;
+}
+.star3{
+    grid-area: st3;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverDiagonal3 250s infinite alternate;
+}
+.star4{
+    grid-area: st4;
+    width: 34px;
+height: 34px;
+flex-shrink: 0;
+animation: moverDerecha 250s infinite alternate;
+}
+.star5{
+    grid-area: st5;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverArriba 250s infinite alternate;
+}
+.star6{
+    grid-area: st6;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverDiagonal1 250s infinite alternate;
+}
+.star7{
+    grid-area: st7;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverIzquierda 250s infinite alternate;
+}
+.star8{
+    grid-area: st8;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverIzquierda 250s infinite alternate;
+}
+.star9{
+    grid-area: st9;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverArriba 250s infinite alternate;
+}
+.star10{
+    grid-area: st10;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+animation: moverAbajo 250s infinite alternate;
+}
+
+/*KeyFrames*/
+@keyframes moverIzquierda {
+    to {
+        transform: translateX(-100px); /* Mueve hacia la izquierda */
+    }
+}
+@keyframes moverDerecha {
+    to {
+        transform: translateX(100px); /* Mueve hacia la derecha */
+    }
+}
+
+/* Definición de la animación arriba */
+@keyframes moverArriba {
+    to {
+        transform: translateY(-100px); /* Mueve hacia arriba */
+    }
+}
+
+/* Definición de la animación abajo */
+@keyframes moverAbajo {
+    to {
+        transform: translateY(100px); /* Mueve hacia abajo */
+    }
+}
+
+/*Diagonales*/
+@keyframes moverDiagonal1 {
+    to {
+        transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
+    }
+}
+
+/* Definición de la animación diagonal 2 (arriba-derecha) */
+@keyframes moverDiagonal2 {
+    to {
+        transform: translate(150px, -150px); /* Mueve hacia arriba-derecha */
+    }
+}
+
+/* Definición de la animación diagonal 3 (abajo-izquierda) */
+@keyframes moverDiagonal3 {
+    to {
+        transform: translate(-100px, 100px); /* Mueve hacia abajo-izquierda */
+    }
+}
+
+/* Definición de la animación diagonal 4 (abajo-derecha) */
+@keyframes moverDiagonal4 {
+    to {
+        transform: translate(150px, 150px); /* Mueve hacia abajo-derecha */
+    }
+}
+@keyframes moverAbajoArriba {
+    0% {
+        transform: translateY(300px); /* Posición inicial: abajo */
+    }
+    100% {
+        transform: translateY(0); /* Movimiento hacia arriba hasta el punto original */
+    }
+}
+.divsArrow{
+    grid-area: da;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    position: relative;
+    
+}
+.arrowUno{
+    animation: moverYDesvanecer 2s infinite;
+    width: 17px;
+}
+.arrowDos{
+    animation: moverYDesvanecer 2s infinite;
+    width: 17px;
+}
+.arrowTres{
+    animation: moverYDesvanecer 2s infinite;
+    width: 17px;
+}
+@keyframes moverYDesvanecer {
+    0% {
+        transform: translateY(0); /* Posición inicial: sin movimiento vertical */
+        opacity: 1; /* Opacidad completa */
+    }
+    50% {
+        transform: translateY(100px); /* Movimiento hacia abajo */
+    }
+    100% {
+        transform: translateY(100px); /* Mantiene la posición hacia abajo */
+        opacity: 0; /* Opacidad nula */
+    }
+}
+    /*Navegador 100% Completo*/
+
+
+
+    nav{
+        
+        grid-area: i;
+        width: 7.813vw;
+        height: 100vh;
+        position: fixed;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas: 
+        ". . ."
+        ". s ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". l ."
+        ". . ."
+        ". w ."
+        ". . ."
+        ". g ."
+        ". . ."
+        ". . ."
+        ". li ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". d ."
+        ". . ."
+        ;
+    }
+    .h2__Steven:hover{
+        text-decoration-line: underline;
+        transition: text-decoration 0.3s;
+    }
+    .h2__Steven{
+        position: relative;
+    
+    right: 35px;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:s;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 1.442vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__linkedin:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__linkedin{
+        position: relative;
+    
+        right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:l;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 0.917vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__whats:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__whats{
+        position: relative;
+    
+    right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:w;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 0.917vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__github:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__github{
+        position: relative;
+    
+    right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:g;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 0.917vh;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      
+    }
+   
+    ._dos{
+        position: relative;
+    
+        right: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:d;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 7px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
