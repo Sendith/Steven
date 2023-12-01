@@ -1,0 +1,10 @@
+main{
+    background: #ECE7E1;
+}
+
+a{
+    font-size: inherit;
+    text-decoration: none; /* Quitar subrayado */
+            color: inherit; /* Usar el color heredado del elemento padre */
+            cursor: pointer; 
+}

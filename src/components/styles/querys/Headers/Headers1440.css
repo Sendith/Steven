@@ -1,0 +1,135 @@
+
+@media only screen and (min-width: 1440px) and (max-width: 1511px) 
+and (min-height: 900px)
+{
+    nav{
+       
+        width: 150px;
+        height: 900px;
+        position: fixed;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas: 
+        ". . ."
+        ". s ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". l ."
+        ". . ."
+        ". w ."
+        ". . ."
+        ". g ."
+        ". . ."
+        ". . ."
+        ". li ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". . ."
+        ". d ."
+        ". . ."
+        ;
+    }
+    .h2__Steven:hover{
+        text-decoration-line: underline;
+        transition: text-decoration 0.3s;
+    }
+    .h2__Steven{
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:s;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__linkedin:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__linkedin{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:l;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__whats:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__whats{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:w;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .h2__github:hover{
+        text-decoration-line: line-through;
+        transition: text-decoration 0.3s;
+    }
+    .h2__github{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:g;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+   
+    ._dos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 121px;
+        height: 29px;
+        transform: rotate(-90deg);
+        flex-shrink: 0;
+        grid-area:d;
+        color: #000;
+        font-family: Jomolhari;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .line{
+    grid-area: li;
+    margin-left: 45%;    
+    }
+}
