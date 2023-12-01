@@ -16,26 +16,35 @@ const Header = () => {
         </nav>
 
         <div className="Apres">
+          <div className="flex__liquid">
           <img className="liquid" src="\img\img__header\liquid.png" alt="" />
+          </div>
+         <div className="Contenedor__hello">
           <h1 className="Hello">Hello.</h1>
+          </div> 
           <h3 className="h3__StevenBlanco">STEVEN BLANCO</h3><img className="git__header" src="\img\img__header\GitHub.png" alt="" />
           <h4 className="h4__Looking">Looking for a job </h4>
           <div className="circulo"></div>
           <h4 className="Product">Product Designer / Webflow Developer / Framer Developer and Partner.</h4>
           <h4 className="Current">Currently working full-time as a Senior Product Designer at <span className="Detail" >Detail Technologies</span> </h4> 
 
-        <img className="star1" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star2" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star3" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star4" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star5" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star6" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star7" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star8" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star9" src="\public\img\stars\black_star.png" alt="" />
-        <img className="star10" src="\public\img\stars\black_star.png" alt="" />
+        <img className="star1" src="\img\stars\black_star.png" alt="" />
+        <img className="star2" src="\img\stars\black_star.png" alt="" />
+        <img className="star3" src="\img\stars\black_star.png" alt="" />
+        <img className="star4" src="\img\stars\black_star.png" alt="" />
+        <img className="star5" src="\img\stars\black_star.png" alt="" />
+        <img className="star6" src="\img\stars\black_star.png" alt="" />
+        <img className="star7" src="\img\stars\black_star.png" alt="" />
+        <img className="star8" src="\img\stars\black_star.png" alt="" />
+        <img className="star9" src="\img\stars\black_star.png" alt="" />
+        <img className="star10" src="\img\stars\black_star.png" alt="" />
 
-
+    <div className="divsArrow">
+    <img className="arrowUno" src="\public\img\img__header\arrows.png" alt="" />
+        <img className="arrowDos" src="\public\img\img__header\arrows.png" alt="" />
+        <img className="arrowTres" src="\public\img\img__header\arrows.png" alt="" />
+    </div>
+       
 
 
         </div>

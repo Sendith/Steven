@@ -2,8 +2,230 @@
 @media only screen and (min-width: 1440px) and (max-width: 1511px) 
 and (min-height: 900px)
 {
+    main{
+        width: 100%;
+        height: 900px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100%;
+        grid-template-areas: "i de";
+    
+    }
+    /*Contend*/
+ 
+    .Apres{
+        height: 900px;
+        width: 1290px;
+        grid-area: de;
+
+        display: grid;
+        grid-template-columns:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% ;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas:
+         
+        ". . . . . . . . . . lid . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". st1 . . . . . st2 . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . hello . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . st10 . . . . ."
+         ". . . . . . . . . st3 . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". st4 . . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . st8 . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+         ". . sb . . git . . . . . . . . . . . . . ."
+         ". . lo . ci . . . . . . . . st7 . . . . . ."
+         ". . pr . . . . . . . . . . . . . . . . ."
+         ". . cu . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . st6 . . . . st9 . . ."
+         ". . st5 . . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
+    }
+.Hello{
+    
+grid-area: hello;
+color: #1A1818;
+width: 961px;
+height: 271px;
+flex-shrink: 0;
+font-family: Jomolhari;
+font-size: 200px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 11.5px;
+}
+
+.h3__StevenBlanco{
+ 
+grid-area: sb;
+width: 277px;
+height: 51px;
+flex-shrink: 0;
+color: #000;
+font-family: Jomolhari;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.h4__Looking{
+    
+grid-area: lo;
+width: 152px;
+height: 29px;
+flex-shrink: 0;
+color: #000;
+font-family: Jomolhari;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Product{
+    
+grid-area: pr;
+width: 324px;
+height: 96px;
+flex-shrink: 0;
+color: #000;
+
+font-family: Jomolhari;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.Current{
+    
+grid-area: cu;
+width: 300px;
+height: auto;
+flex-shrink: 0;
+color: #000;
+
+font-family: Jomolhari;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: #000;
+margin-top: 15px;
+
+}
+.Detail{
+ text-decoration: underline;
+}
+.Detail:hover{
+    text-decoration: line-through;
+}
+.git__header{
+    grid-area: git;
+    margin-left: 21px;
+}
+
+.circulo{
+margin-top: 10px;
+grid-area: ci;
+width: 10px;
+height: 10px;
+flex-shrink: 0;
+animation: parpadeo 1s ease-in-out infinite;
+background-color: #000;
+stroke-width: 1px;
+border-radius: 50%;
+filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+@keyframes parpadeo {
+    25%, 100% {
+        opacity: 1; /* Comienzo y fin: opacidad completa */
+    }
+    50% {
+        opacity: 0.4; /* Mitad del tiempo: opacidad nula */
+    }
+}
+.liquid{
+    grid-area: lid;
+    width: 731px;;
+    height: 731px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 0; /* Inicialmente, la imagen está en el borde izquierdo */
+    transition: left 0.5s ease;
+
+}
+.star1{
+    grid-area: st1;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star2{
+    grid-area: st2;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star3{
+    grid-area: st3;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star4{
+    grid-area: st4;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star5{
+    grid-area: st5;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star6{
+    grid-area: st6;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star7{
+    grid-area: st7;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star8{
+    grid-area: st8;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star9{
+    grid-area: st9;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+.star10{
+    grid-area: st10;
+    width: 19px;
+height: 18px;
+flex-shrink: 0;
+}
+
+
+    /*Navegador 100% Completo*/
+
+
+
     nav{
-       
+        grid-area: i;
         width: 150px;
         height: 900px;
         position: fixed;
@@ -66,7 +288,7 @@ and (min-height: 900px)
         grid-area:l;
         color: #000;
         font-family: Jomolhari;
-        font-size: 12px;
+        font-size: 8px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -86,7 +308,7 @@ and (min-height: 900px)
         grid-area:w;
         color: #000;
         font-family: Jomolhari;
-        font-size: 12px;
+        font-size: 8px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -106,7 +328,7 @@ and (min-height: 900px)
         grid-area:g;
         color: #000;
         font-family: Jomolhari;
-        font-size: 12px;
+        font-size: 8px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -132,4 +354,5 @@ and (min-height: 900px)
     grid-area: li;
     margin-left: 45%;    
     }
+  
 }
