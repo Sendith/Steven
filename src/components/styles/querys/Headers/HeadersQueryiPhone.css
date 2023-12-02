@@ -488,7 +488,7 @@ animation: moverAbajo 250s infinite alternate;
   
 
   }
-  @media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  @media only screen  and (max-width: 990px) and (orientation: landscape) {
     main{
        
         width: 100%;
@@ -509,9 +509,9 @@ animation: moverAbajo 250s infinite alternate;
         grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
         grid-template-areas:
          ". . . . . . . . . lid . . . . . . . . . ."
-         ". st1 . . . . . . . . . . . . . . . . . ."
+         "hello st1 . . . . . . . . . . . . . . . . . ."
          ". . . st10 . . . st2 . . . . . . . . . . . ."
-         "hello hello hello hello . . . . . . . . . . . . . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . st3 . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
@@ -519,12 +519,12 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . st7 . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
-         ". . . . . . . . . . . . . . . . st8 . . ."
+         ". . . . . . . . . . . . . . . . da st8 . ."
          "sb . . . . git . . st4 . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          "lo . ci . . . . . . . . . . . . . . . . ."
          "pr pr pr . . . . . . . . . . . . . . . . ."
-         ". . . . . . . . . . . . . . . da . . . ."
+         ". . . . . . . . . . . . . . . . . . . ."
          "cu . . . . . . . . . . st6 . . . . st9 . . ."
          ". . st5 . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
@@ -793,7 +793,7 @@ animation: moverAbajo 250s infinite alternate;
     flex-direction: column;
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    
     position: relative;
     
 }

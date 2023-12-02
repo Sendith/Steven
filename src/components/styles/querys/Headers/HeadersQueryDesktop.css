@@ -229,24 +229,24 @@ animation: moverAbajo 250s infinite alternate;
 /*KeyFrames*/
 @keyframes moverIzquierda {
     to {
-        transform: translateX(-700px); /* Mueve hacia la izquierda */
+        transform: translateX(-500px); /* Mueve hacia la izquierda */
     }
 }
 @keyframes moverDerecha {
     to {
-        transform: translateX(800px); /* Mueve hacia la derecha */
+        transform: translateX(500px); /* Mueve hacia la derecha */
     }
 }
 /* Definición de la animación arriba */
 @keyframes moverArriba {
     to {
-        transform: translateY(-600px); /* Mueve hacia arriba */
+        transform: translateY(-500px); /* Mueve hacia arriba */
     }
 }
 /* Definición de la animación abajo */
 @keyframes moverAbajo {
     to {
-        transform: translateY(600px); /* Mueve hacia abajo */
+        transform: translateY(500px); /* Mueve hacia abajo */
     }
 }
 /*Diagonales*/
@@ -258,19 +258,19 @@ animation: moverAbajo 250s infinite alternate;
 /* Definición de la animación diagonal 2 (arriba-derecha) */
 @keyframes moverDiagonal2 {
     to {
-        transform: translate(550px, -550px); /* Mueve hacia arriba-derecha */
+        transform: translate(450px, -450px); /* Mueve hacia arriba-derecha */
     }
 }
 /* Definición de la animación diagonal 3 (abajo-izquierda) */
 @keyframes moverDiagonal3 {
     to {
-        transform: translate(-700px, 700px); /* Mueve hacia abajo-izquierda */
+        transform: translate(-600px, 600px); /* Mueve hacia abajo-izquierda */
     }
 }
 /* Definición de la animación diagonal 4 (abajo-derecha) */
 @keyframes moverDiagonal4 {
     to {
-        transform: translate(550px, 550px); /* Mueve hacia abajo-derecha */
+        transform: translate(450px, 450px); /* Mueve hacia abajo-derecha */
     }
 }
 @keyframes moverAbajoArriba {
