@@ -17,7 +17,7 @@ const Header = () => {
           <img className="liquid" src="\img\img__header\liquid.png" alt="" />
           </div>
          <div className="Contenedor__hello">
-          <h1 className="Hello">HELLO.</h1>
+          <h1 className="Hello">Hello.</h1>
           </div> 
           <h3 className="h3__StevenBlanco">STEVEN BLANCO</h3><img className="git__header" src="\img\img__header\GitHub.png" alt="" />
           <h4 className="h4__Looking">Looking for a job </h4>
