@@ -65,14 +65,14 @@
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
-width: 1200px;
+width: 700px;
 flex-shrink: 0;
-font-family: Jomolhari;
-font-size: 14.979vh;
+font-family: Grandslang roman, sans-serif;
+font-size: 13.979vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: 11.5px;
+letter-spacing: 9.5px;
 }
 .h3__StevenBlanco{
 grid-area: sb;
@@ -515,14 +515,14 @@ animation: moverAbajo 250s infinite alternate;
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
-width: 1200px;
+width: 700px;
 flex-shrink: 0;
-font-family: Jomolhari;
+
 font-size: 14.979vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: 11.5px;
+letter-spacing: 9.5px;
 }
 
 .h3__StevenBlanco{
@@ -819,7 +819,7 @@ animation: moverAbajo 250s infinite alternate;
         flex-shrink: 0;
         grid-area:s;
         color: #000;
-        font-family: Jomolhari;
+        font-family: Grandslang roman, sans-serif;
         font-size: 1.442vw;
         font-style: normal;
         font-weight: 400;

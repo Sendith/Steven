@@ -41,7 +41,7 @@
     }
     .Contenedor__hello{
         grid-area: hello;
-        width: 1200px;
+        width: 700px;
         height: 271px;
         overflow: hidden;
         display: flex;
@@ -52,14 +52,14 @@
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
-width: 1200px;
+width: 700px;
 flex-shrink: 0;
-font-family: Jomolhari;
-font-size: 10.979vh;
+font-family: Grandslang roman, sans-serif;
+font-size: 8.979vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: 11.5px;
+letter-spacing: 9.5px;
 }
 .h3__StevenBlanco{
 grid-area: sb;
@@ -377,7 +377,7 @@ animation: moverAbajo 250s infinite alternate;
         flex-shrink: 0;
         grid-area:s;
         color: #000;
-        font-family: Jomolhari;
+        font-family: Grandslang roman, sans-serif;
         font-size: 1.442vh;
         font-style: normal;
         font-weight: 400;
@@ -495,10 +495,10 @@ animation: moverAbajo 250s infinite alternate;
         grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
         grid-template-areas:
          ". . . . . . . . lid lid . . . . . . . . . ."
-         "hello st1 . . . . . . . . . . . . . . . . . ."
+         ". st1 . . . . . . . . . . . . . . . . . ."
          ". . . st10 . . . st2 . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
-         ". . . . . . . . . . . . . . . . . . . ."
+         "hello . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . st3 . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
@@ -517,7 +517,7 @@ animation: moverAbajo 250s infinite alternate;
     }
     .Contenedor__hello{
         grid-area: hello;
-        width: 400px;
+        width: 700px;
         height: 271px;
         overflow: hidden;
         display: flex;
@@ -528,14 +528,14 @@ animation: moverAbajo 250s infinite alternate;
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
-width: 400px;
+width: 700px;
 flex-shrink: 0;
-font-family: Jomolhari;
+
 font-size: 10.979vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: 11.5px;
+letter-spacing: 9.5px;
 }
 
 .h3__StevenBlanco{

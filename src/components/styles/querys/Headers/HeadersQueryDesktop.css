@@ -49,13 +49,14 @@
         align-items: center;
     }
 .Hello{
+font-family: Grandslang roman, sans-serif;
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
-width: 1200px;
+width: 700px;
 flex-shrink: 0;
-font-family: Jomolhari;
-font-size: 11.979vw;
+
+font-size: 10.979vw;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -379,7 +380,7 @@ animation: moverAbajo 250s infinite alternate;
         flex-shrink: 0;
         grid-area:s;
         color: #000;
-        font-family: Jomolhari;
+        font-family: Grandslang roman, sans-serif;
         font-size: 1.042vw;
         font-style: normal;
         font-weight: 400;
