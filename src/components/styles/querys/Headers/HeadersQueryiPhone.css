@@ -521,7 +521,7 @@ animation: moverAbajo 250s infinite alternate;
     .Contenedor__hello{
         background-color: rgb(250, 215, 243);
         grid-area: hello;
-        width: 55.458vw;
+        width: 68.458vw;
         height: 14.479vw;
         overflow: hidden;
         display: flex;
