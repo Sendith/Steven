@@ -1,6 +1,7 @@
 /*HeaderQueryIphone 100% Complete*/
 @media only screen and (max-width: 767px) and (orientation: portrait)  {
     main{
+        background-color: rgb(0, 255, 17);
         width: 100%;
         height: 100vh;
         display: grid;
@@ -478,6 +479,7 @@ animation: moverAbajo 250s infinite alternate;
   }
   @media only screen  and (max-width: 990px) and (orientation: landscape) {
     main{
+        background-color: aqua;
         width: 100%;
         height: 100vh;
         display: grid;
@@ -517,6 +519,7 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . . . . . . . . . ."
     }
     .Contenedor__hello{
+        
         grid-area: hello;
         width: 700px;
         height: 271px;
