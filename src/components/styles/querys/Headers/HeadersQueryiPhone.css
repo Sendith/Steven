@@ -508,7 +508,7 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . st7 . . . . . . . ."
          ". . . . . . . . . . . . . . . da . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
-         "sb . . . git . . . . . . . . . . . . st8 . ."
+         "sb . . . . git . . . . . . . . . . . st8 . ."
          ". . . . . . . . st4 . . . . . . . . . . ."
          "lo . ci . . . . . . . . . . . . . . . . ."
          "pr pr pr . . . . . . . . . . . . . . . . ."
@@ -608,8 +608,8 @@ margin-top: 15px;
     
     grid-area: git;
     margin-left: 18px;
-    width: 3.604vw;
-    height: 3.396vw;
+    width: 2.604vw;
+    height: 2.396vw;
 }
 .circulo{
 grid-area: ci;
