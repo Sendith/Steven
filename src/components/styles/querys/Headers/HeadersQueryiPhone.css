@@ -1,7 +1,7 @@
 /*HeaderQueryIphone 100% Complete*/
 @media only screen and (max-width: 767px) and (orientation: portrait)  {
     main{
-        background-color: rgb(0, 255, 17);
+      
         width: 100%;
         height: 100vh;
         display: grid;
@@ -479,7 +479,7 @@ animation: moverAbajo 250s infinite alternate;
   }
   @media only screen  and (max-width: 990px) and (orientation: landscape) {
     main{
-        background-color: aqua;
+        
         width: 100%;
         height: 100vh;
         display: grid;
@@ -499,9 +499,9 @@ animation: moverAbajo 250s infinite alternate;
         grid-template-areas:
          ". . . . . . . . lid lid . . . . . . . . . ."
          ". st1 . . . . . . . . . . . . . . . . . ."
-         "hello . . st10 . . . st2 . . . . . . . . . . . ."
+         ". . . st10 . . . st2 . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
-         ". . . . . . . . . . . . . . . . . . . ."
+         "hello . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . st3 . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
@@ -519,7 +519,7 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . . . . . . . . . ."
     }
     .Contenedor__hello{
-        background-color: rgb(250, 215, 243);
+        
         grid-area: hello;
         width: 68.458vw;
         height: 14.479vw;
@@ -529,7 +529,7 @@ animation: moverAbajo 250s infinite alternate;
         align-items: center;
     }
 .Hello{
-    background-color: rgb(225, 250, 215);
+   
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
@@ -544,7 +544,7 @@ letter-spacing: 9.5px;
 }
 
 .h3__StevenBlanco{
-    background-color: rgb(250, 215, 218);
+    
 grid-area: sb;
 width: 350px;
 height: 51px;
@@ -558,7 +558,7 @@ line-height: normal;
 }
 
 .h4__Looking{
-    background-color: rgb(220, 215, 250);
+   
 grid-area: lo;
 width: 18.875vw;
 height: 29px;
@@ -571,7 +571,7 @@ font-weight: 400;
 line-height: normal;
 }
 .Product{
-    background-color: rgb(215, 250, 215);
+    
 grid-area: pr;
 width: 18.875vw;
 height: auto;
@@ -584,7 +584,7 @@ font-weight: 400;
 line-height: normal;
 }
 .Current{
-    background-color: rgb(224, 131, 10);
+    
 grid-area: cu;
 width: 300px;
 height: 15px;
@@ -824,8 +824,8 @@ animation: moverAbajo 250s infinite alternate;
         ". . ."
         ". . ."
         ". . ."
-        ". . ."
         ". d ."
+        ". . ."
         ". . ."
         ;
     }
