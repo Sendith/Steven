@@ -72,6 +72,7 @@ font-size: 2.25vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+animation: blurAnimation 1.2s forwards;
 }
 .h4__Looking{
 grid-area: lo;
@@ -84,6 +85,7 @@ font-size: 1.481vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+animation: blurAnimation 1.2s forwards;
 }
 .Product{
 grid-area: pr;
@@ -96,6 +98,7 @@ font-size: 1.481vh;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+animation: blurAnimation 1.2s forwards;
 }
 .Current{
 grid-area: cu;
@@ -110,6 +113,7 @@ font-weight: 400;
 line-height: normal;
 color: #000;
 margin-top: 15px;
+animation: blurAnimation 1.2s forwards;
 
 }
 .Detail{
@@ -123,6 +127,7 @@ margin-top: 15px;
     margin-left: 18px;
     width: 4.604vh;
     height: 4.396vh;
+    animation: blurAnimation 1.2s forwards;
 }
 .circulo{
 margin-top: 10px;
@@ -135,6 +140,7 @@ background-color: #000;
 stroke-width: 1px;
 border-radius: 50%;
 filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+animation: blurAnimation 1.2s forwards;
 }
 @keyframes parpadeo {
     25%, 100% {
@@ -143,7 +149,19 @@ filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     50% {
         opacity: 0.4; /* Mitad del tiempo: opacidad nula */
     }
+    
 }
+@keyframes blurAnimation {
+    0% {
+      filter: blur(0);
+    }
+    50% {
+      filter: blur(5px);
+    }
+    100% {
+      filter: blur(0);
+    }
+  }
 .liquid{
     grid-area: lid;
     width: 72.073vw;;
@@ -152,6 +170,7 @@ filter: blur(0.6499999761581421px) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     position: absolute;
     right: 0px; /* Inicialmente, la imagen está en el borde izquierdo */
     transition: left 0.5s ease;
+    animation: blurAnimation 1.2s forwards;
         }
 .star1{
 grid-area: st1;
