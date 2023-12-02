@@ -506,8 +506,8 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
          ". . . . . . . . . . . st7 . . . . . . . ."
+         ". . . . . . . . . . . . . . . da . . . ."
          ". . . . . . . . . . . . . . . . . . . ."
-         ". . . . . . . . . . . . . . . . da . . ."
          ". . . . . . . . . . . . . . . . . st8 . ."
          "sb . . . . git . . st4 . . . . . . . . . . ."
          "lo . ci . . . . . . . . . . . . . . . . ."
@@ -521,7 +521,7 @@ animation: moverAbajo 250s infinite alternate;
     .Contenedor__hello{
         background-color: rgb(250, 215, 243);
         grid-area: hello;
-        width: 36.458vw;
+        width: 40.458vw;
         height: 14.479vw;
         overflow: hidden;
         display: flex;
@@ -546,7 +546,7 @@ letter-spacing: 9.5px;
 .h3__StevenBlanco{
     background-color: rgb(250, 215, 218);
 grid-area: sb;
-width: 500px;
+width: 400px;
 height: 51px;
 flex-shrink: 0;
 color: #000;
