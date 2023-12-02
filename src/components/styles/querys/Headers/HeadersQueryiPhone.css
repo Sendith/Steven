@@ -519,7 +519,7 @@ animation: moverAbajo 250s infinite alternate;
          ". . . . . . . . . . . . . . . . . . . ."
     }
     .Contenedor__hello{
-        background-color: antiquewhite;
+        background-color: rgb(250, 215, 243);
         grid-area: hello;
         width: 700px;
         height: 271px;
@@ -529,7 +529,7 @@ animation: moverAbajo 250s infinite alternate;
         align-items: center;
     }
 .Hello{
-    background-color: antiquewhite;
+    background-color: rgb(225, 250, 215);
 overflow: hidden;
 animation: moverAbajoArriba 2s ease forwards;
 color: #1A1818;
@@ -544,7 +544,7 @@ letter-spacing: 9.5px;
 }
 
 .h3__StevenBlanco{
-    background-color: antiquewhite;
+    background-color: rgb(250, 215, 218);
 grid-area: sb;
 width: 500px;
 height: 51px;
@@ -558,7 +558,7 @@ line-height: normal;
 }
 
 .h4__Looking{
-    background-color: antiquewhite;
+    background-color: rgb(220, 215, 250);
 grid-area: lo;
 width: 18.875vw;
 height: 29px;
@@ -571,7 +571,7 @@ font-weight: 400;
 line-height: normal;
 }
 .Product{
-    background-color: antiquewhite;
+    background-color: rgb(215, 250, 215);
 grid-area: pr;
 width: 18.875vw;
 height: auto;
@@ -584,7 +584,7 @@ font-weight: 400;
 line-height: normal;
 }
 .Current{
-    background-color: antiquewhite;
+    background-color: rgb(224, 131, 10);
 grid-area: cu;
 width: 300px;
 height: 15px;
@@ -605,7 +605,7 @@ margin-top: 15px;
     text-decoration: line-through;
 }
 .git__header{
-    background-color: antiquewhite;
+    
     grid-area: git;
     margin-left: 18px;
     width: 3.604vw;
