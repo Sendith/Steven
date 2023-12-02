@@ -1,3 +1,4 @@
+/*HeaderQueryDesktop 100% Complete*/
 @media only screen and (min-width: 992px)  {
     main{
         width: 100%;
@@ -289,7 +290,6 @@ animation: moverAbajo 250s infinite alternate;
     height: 50px;
     margin-left: 30px;
     position: relative;
-    
 }
 .arrowUno{
     animation: moverYDesvanecer 2s infinite;
