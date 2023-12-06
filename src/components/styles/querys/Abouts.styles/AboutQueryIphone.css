@@ -1,0 +1,814 @@
+@media only screen and (max-width: 767px) and (orientation: portrait)  {
+    .Main_container{
+        background-color: #ece7e1;
+        width: 100vw;
+        height: 1700px;
+        display: grid;
+        grid-template-columns: 15% 75% 10%;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas: 
+        ". about st1"
+        ". . ."
+        ". img st2"
+        ". . st3"
+        ". . st4"
+        ". . st5"
+        ". steven st6"
+        ". cusp ."
+        ". fast ."
+        ". design st7"
+        ". . st10"
+        ". there ."
+        ". resonates ."
+        ". exp st8"
+        ". degree ."
+        ". within ."
+        ". skill st9"
+        ". ui ."
+        ". contac ."
+        ". ico ."
+        ;
+    }
+    .About{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    
+    grid-area: about;
+    width: 961px;
+    height: 271px;
+    flex-shrink: 0;
+    color: #1a1818;
+    font-size: 10.979vh;
+    font-family: Lauren;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 11.5px;
+    overflow: hidden;
+    }
+    .About>p{
+        animation: moverAbajoArriba 2s ease forwards;
+    }
+    @keyframes moverAbajoArriba {
+        0% {
+            transform: translateY(300px); /* Posición inicial: abajo */
+        }
+        100% {
+            transform: translateY(0); /* Movimiento hacia arriba hasta el punto original */
+        }
+    }
+    .Steven{
+    width: 250px;
+    height: 169px;
+    flex-shrink: 0;    
+    color: #1a1818;
+        font-family: Jomolhari;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.9px;
+        grid-area: steven;    
+    }
+    .contenedorimg{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        width: 550px;
+        height: 450px;
+        grid-area: img;
+    }
+    .contenedor__img{
+    width: 230px;
+    height: 340px;
+    flex-shrink: 0;
+    animation: zoomOut 0.4s ease-in-out;
+    
+    }
+    @keyframes zoomOut {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    .The_cusp{
+    width: 250px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #1a1818;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.981vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: cusp;
+    
+    letter-spacing: .5px;
+    }
+    .Fast_forward{
+    width: 250px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.981vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: fast;
+    
+    letter-spacing: .5px;
+    }
+    .Product_design{
+    width: 250px;
+    height: 192px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.781vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: design;
+    margin-top: 20px;
+    letter-spacing: .5px;
+    }
+    .There_is{
+    width: 250px;
+    height: 225px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: there;
+    margin-top: 28px;
+    letter-spacing: .5px;
+    
+    }
+    .This_resonates{
+    width: 250px;
+    height: 103px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.781vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: resonates;
+    margin-top: 40px;
+    letter-spacing: .5px;
+    }
+    .experience{
+    width: 285px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: exp;
+    margin-top: 25px;
+    letter-spacing: .5px;
+    }
+    .degree{
+    width: 250px;
+    height: 79px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.781vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: degree;
+
+    letter-spacing: .5px;
+    }
+    .within{
+    width: 364px;
+    height: 198px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.781vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: within;
+    
+    }
+    .Contact_Me{
+    width: 198px;
+    height: 59px;
+    border-radius: 48px;
+    background: #1A1818;
+    grid-area: contac;
+    color: white;
+    transition: width 0.3s ease;
+    font-size: 20px;
+    letter-spacing: .5px;
+    }
+    .Contact_Me:hover{
+        width: 230px;
+    }
+    
+    .skills{
+    width: 285px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: skill;
+
+    }
+    .UI{
+    width: 250px;
+    height: 113px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.781vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: ui;
+    }
+    .Container_icons{
+    width: 600px;
+    width: 80px;
+    grid-area: ico;
+    display: flex;
+    margin-top:1.781vw;
+    margin-right: 7px;
+    
+    }
+    .Container_icons>img{
+        width: 40px;
+        height: 40px;
+        margin-left: 7px;
+    }
+    
+    
+    
+    /**/
+    .star1{
+        grid-area: st1;
+        width: 30px;
+        height: 29px;
+        flex-shrink: 0;
+       position: relative;
+       right: 800px;
+        
+        }
+        .star2{
+            grid-area: st2;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 400px;
+        }
+        .star3{
+            grid-area: st3;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 100px;
+        }
+        .star4{
+            grid-area: st4;
+            width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        position: relative;
+        right: 720px;
+        }
+        .star5{
+            grid-area: st5;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 900px;
+        }
+        .star6{
+            grid-area: st6;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 50px;
+        }
+        .star7{
+            grid-area: st7;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 650px;
+        }
+        .star8{
+            grid-area: st8;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: -40px;
+        }
+        .star9{
+            grid-area: st9;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 600px;
+        }
+        .star10{
+            grid-area: st10;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 200px;
+        }
+        /*KeyFrames*/
+        @keyframes moverIzquierda {
+            to {
+                transform: translateX(-100px); /* Mueve hacia la izquierda */
+            }
+        }
+        @keyframes moverDerecha {
+            to {
+                transform: translateX(100px); /* Mueve hacia la derecha */
+            }
+        }
+        /* Definición de la animación arriba */
+        @keyframes moverArriba {
+            to {
+                transform: translateY(-200px); /* Mueve hacia arriba */
+            }
+        }
+        /* Definición de la animación abajo */
+        @keyframes moverAbajo {
+            to {
+                transform: translateY(100px); /* Mueve hacia abajo */
+            }
+        }
+        /*Diagonales*/
+        @keyframes moverDiagonal1 {
+            to {
+                transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 2 (arriba-derecha) */
+        @keyframes moverDiagonal2 {
+            to {
+                transform: translate(350px, -350px); /* Mueve hacia arriba-derecha */
+            }
+        }
+        /* Definición de la animación diagonal 3 (abajo-izquierda) */
+        @keyframes moverDiagonal3 {
+            to {
+                transform: translate(-100px, 100px); /* Mueve hacia abajo-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 4 (abajo-derecha) */
+        @keyframes moverDiagonal4 {
+            to {
+                transform: translate(250px, 250px); /* Mueve hacia abajo-derecha */
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen  and (max-width: 990px) and (orientation: landscape) {
+    .Main_container{
+        background-color: #ece7e1;
+        width: 100vw;
+        height: 2200px;
+        display: grid;
+        grid-template-columns: 15% 75% 10%;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-areas: 
+        ". about st1"
+        ". . ."
+        ". img st2"
+        ". . st3"
+        ". . st4"
+        ". . st5"
+        ". steven st6"
+        ". cusp ."
+        ". fast ."
+        ". design st7"
+        ". . st10"
+        ". there ."
+        ". resonates ."
+        ". exp st8"
+        ". degree ."
+        ". within ."
+        ". skill st9"
+        ". ui ."
+        ". contac ."
+        ". ico ."
+        ;
+    }
+    .About{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    
+    grid-area: about;
+    width: 961px;
+    height: 271px;
+    flex-shrink: 0;
+    color: #1a1818;
+    font-size: 10.979vw;
+    font-family: Lauren;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 11.5px;
+    overflow: hidden;
+    }
+    .About>p{
+        animation: moverAbajoArriba 2s ease forwards;
+       
+    }
+    @keyframes moverAbajoArriba {
+        0% {
+            transform: translateY(300px); /* Posición inicial: abajo */
+        }
+        100% {
+            transform: translateY(0); /* Movimiento hacia arriba hasta el punto original */
+        }
+    }
+    .Steven{
+    width: 350px;
+    height: 169px;
+    flex-shrink: 0;    
+    color: #1a1818;
+        font-family: Jomolhari;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.9px;
+        grid-area: steven;    
+    }
+    .contenedorimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 550px;
+        height: 450px;
+        grid-area: img;
+    }
+    .contenedor__img{
+    width: 290px;
+    height: 440px;
+    flex-shrink: 0;
+    animation: zoomOut 0.4s ease-in-out;
+    
+    }
+    @keyframes zoomOut {
+        from {
+          transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+    .The_cusp{
+    width: 400px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #1a1818;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: cusp;
+    
+    letter-spacing: .5px;
+    }
+    .Fast_forward{
+    width: 400px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: fast;
+    
+    letter-spacing: .5px;
+    }
+    .Product_design{
+    width: 400px;
+    height: 192px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: design;
+    margin-top: 15px;
+    letter-spacing: .5px;
+    }
+    .There_is{
+    width: 400px;
+    height: 225px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: there;
+   
+    letter-spacing: .5px;
+    
+    }
+    .This_resonates{
+    width: 400px;
+    height: 103px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: resonates;
+    margin-top: 15px;
+    letter-spacing: .5px;
+    }
+    .experience{
+    width: 285px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: exp;
+    margin-top: 25px;
+    letter-spacing: .5px;
+    }
+    .degree{
+    width: 400px;
+    height: 79px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: degree;
+
+    letter-spacing: .5px;
+    }
+    .within{
+    width: 364px;
+    height: 198px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: within;
+    
+    }
+    .Contact_Me{
+    width: 198px;
+    height: 59px;
+    border-radius: 48px;
+    background: #1A1818;
+    grid-area: contac;
+    color: white;
+    transition: width 0.3s ease;
+    font-size: 20px;
+    letter-spacing: .5px;
+    }
+    .Contact_Me:hover{
+        width: 230px;
+    }
+    
+    .skills{
+    width: 285px;
+    height: 41px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: skill;
+
+    }
+    .UI{
+    width: 400px;
+    height: 113px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Jomolhari;
+    font-size:1.481vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: ui;
+    }
+    .Container_icons{
+    width: 600px;
+    width: 80px;
+    grid-area: ico;
+    display: flex;
+    margin-top:1.781vw;
+    margin-right: 7px;
+    
+    }
+    .Container_icons>img{
+        width: 40px;
+        height: 40px;
+        margin-left: 7px;
+    }
+    
+    
+    
+    /**/
+    .star1{
+        grid-area: st1;
+        width: 30px;
+        height: 29px;
+        flex-shrink: 0;
+       position: relative;
+       right: 800px;
+        
+        }
+        .star2{
+            grid-area: st2;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 400px;
+        }
+        .star3{
+            grid-area: st3;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 100px;
+        }
+        .star4{
+            grid-area: st4;
+            width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        position: relative;
+        right: 720px;
+        }
+        .star5{
+            grid-area: st5;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 900px;
+        }
+        .star6{
+            grid-area: st6;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 50px;
+        }
+        .star7{
+            grid-area: st7;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 650px;
+        }
+        .star8{
+            grid-area: st8;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: -40px;
+        }
+        .star9{
+            grid-area: st9;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 600px;
+        }
+        .star10{
+            grid-area: st10;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        position: relative;
+        right: 200px;
+        }
+        /*KeyFrames*/
+        @keyframes moverIzquierda {
+            to {
+                transform: translateX(-100px); /* Mueve hacia la izquierda */
+            }
+        }
+        @keyframes moverDerecha {
+            to {
+                transform: translateX(100px); /* Mueve hacia la derecha */
+            }
+        }
+        /* Definición de la animación arriba */
+        @keyframes moverArriba {
+            to {
+                transform: translateY(-200px); /* Mueve hacia arriba */
+            }
+        }
+        /* Definición de la animación abajo */
+        @keyframes moverAbajo {
+            to {
+                transform: translateY(100px); /* Mueve hacia abajo */
+            }
+        }
+        /*Diagonales*/
+        @keyframes moverDiagonal1 {
+            to {
+                transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 2 (arriba-derecha) */
+        @keyframes moverDiagonal2 {
+            to {
+                transform: translate(350px, -350px); /* Mueve hacia arriba-derecha */
+            }
+        }
+        /* Definición de la animación diagonal 3 (abajo-izquierda) */
+        @keyframes moverDiagonal3 {
+            to {
+                transform: translate(-100px, 100px); /* Mueve hacia abajo-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 4 (abajo-derecha) */
+        @keyframes moverDiagonal4 {
+            to {
+                transform: translate(250px, 250px); /* Mueve hacia abajo-derecha */
+            }
+        }
+}
