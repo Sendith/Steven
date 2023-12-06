@@ -102,7 +102,7 @@ animation: zoomOut 0.4s ease-in-out;
     }
   }
 .The_cusp{
-width: 555px;
+width: 615px;
 height: 96px;
 flex-shrink: 0;
 color: #1a1818;
@@ -116,8 +116,8 @@ grid-area: cusp;
 letter-spacing: .5px;
 }
 .Fast_forward{
-width: 555px;
-height: 96px;
+    width: 615px;
+    height: 96px;
 flex-shrink: 0;
 color: #000;
 font-family: Jomolhari;
@@ -130,7 +130,7 @@ grid-area: fast;
 letter-spacing: .5px;
 }
 .Product_design{
-width: 555px;
+    width: 615px;
 height: 192px;
 flex-shrink: 0;
 color: #000;
@@ -159,7 +159,7 @@ letter-spacing: .5px;
 
 }
 .This_resonates{
-width: 562px;
+    width: 615px;
 height: 103px;
 flex-shrink: 0;
 color: #000;
@@ -187,7 +187,7 @@ margin-top: 85px;
 letter-spacing: .5px;
 }
 .degree{
-width: 583px;
+    width: 615px;
 height: 79px;
 flex-shrink: 0;
 color: #000;
@@ -201,7 +201,7 @@ margin-top: 40px;
 letter-spacing: .5px;
 }
 .within{
-width: 364px;
+    width: 615px;
 height: 198px;
 flex-shrink: 0;
 color: #000;
@@ -242,7 +242,7 @@ grid-area: skill;
 margin-top: 65px;
 }
 .UI{
-width: 584px;
+    width: 615px;
 height: 113px;
 flex-shrink: 0;
 color: #000;
