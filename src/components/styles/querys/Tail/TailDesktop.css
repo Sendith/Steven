@@ -1,5 +1,5 @@
 @media only screen and (min-width: 992px)  {
-    .Main{
+    #Main{
         width: 100%;
         height: 100vh;
         background-color: #1a1818;

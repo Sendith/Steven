@@ -1,0 +1,476 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+    #Main{
+        width: 100%;
+        height: 100vh;
+        background-color: #1a1818;
+        display: grid;
+        grid-template-columns: 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 
+        ". . . . . . . st4 . . . st7 . . . . st9 . ."
+        ". . hi st6 . . . . . . st3 . . . . st1 . . ."
+        ". . p . . . st5 . . . st10 . . st2 . . st8 . ."
+        "w . . . . . . . . . . . . . . . . . .";
+    }
+    .Hi{
+        color: #ECE7E1;
+        font-family: Jomolhari;
+        font-size: 14.979vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 11.5px;
+        grid-area: hi;
+        margin-top: 90px;
+    }
+    .Parrafo{
+        color: #ece7e1;
+        width: 300px;
+        height: 271px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Jomolhari;
+        font-size: 1.842vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+        grid-area: p;
+    }
+    .cwaves{
+        
+       grid-area: w;
+        width: 100vw;
+        height: 100%;
+        position: relative;
+    }
+    .wave1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 13.854vw;
+        animation: ondulacion1 4s linear infinite;
+       
+    }
+    .wave2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 15vw;
+        animation: ondulacion2 4s linear infinite;
+    }
+    .wave3{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 13.854vw;
+        animation: ondulacion3 4s linear infinite;
+    }
+    .bloqueador{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4vw;
+        background-color: #ECE7E1;
+    }
+
+ 
+    
+    @keyframes ondulacion1 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.75);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes ondulacion2 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.90);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes ondulacion3 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.85);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+
+
+    .star1{
+        grid-area: st1;
+        width: 30px;
+        height: 29px;
+        flex-shrink: 0;
+        animation: moverDerecha 250s infinite alternate;
+        
+        }
+        .star2{
+            grid-area: st2;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal3 250s infinite alternate;
+        }
+        .star3{
+            grid-area: st3;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal3 250s infinite alternate;
+        }
+        .star4{
+            grid-area: st4;
+            width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        animation: moverDerecha 250s infinite alternate;
+        }
+        .star5{
+            grid-area: st5;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverArriba 250s infinite alternate;
+        }
+        .star6{
+            grid-area: st6;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal1 250s infinite alternate;
+        }
+        .star7{
+            grid-area: st7;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverIzquierda 250s infinite alternate;
+        }
+        .star8{
+            grid-area: st8;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverIzquierda 250s infinite alternate;
+        }
+        .star9{
+            grid-area: st9;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverArriba 250s infinite alternate;
+        }
+        .star10{
+            grid-area: st10;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverAbajo 250s infinite alternate;
+        }
+        /*KeyFrames*/
+        @keyframes moverIzquierda {
+            to {
+                transform: translateX(-300px); /* Mueve hacia la izquierda */
+            }
+        }
+        @keyframes moverDerecha {
+            to {
+                transform: translateX(100px); /* Mueve hacia la derecha */
+            }
+        }
+        /* Definición de la animación arriba */
+        @keyframes moverArriba {
+            to {
+                transform: translateY(-200px); /* Mueve hacia arriba */
+            }
+        }
+        /* Definición de la animación abajo */
+        @keyframes moverAbajo {
+            to {
+                transform: translateY(200px); /* Mueve hacia abajo */
+            }
+        }
+        /*Diagonales*/
+        @keyframes moverDiagonal1 {
+            to {
+                transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 2 (arriba-derecha) */
+        @keyframes moverDiagonal2 {
+            to {
+                transform: translate(250px, -250px); /* Mueve hacia arriba-derecha */
+            }
+        }
+        /* Definición de la animación diagonal 3 (abajo-izquierda) */
+        @keyframes moverDiagonal3 {
+            to {
+                transform: translate(-200px, 200px); /* Mueve hacia abajo-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 4 (abajo-derecha) */
+        @keyframes moverDiagonal4 {
+            to {
+                transform: translate(150px, 150px); /* Mueve hacia abajo-derecha */
+            }
+        }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+    #Main{
+        width: 100%;
+        height: 100vh;
+        background-color: #1a1818;
+        display: grid;
+        grid-template-columns: 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas: 
+        ". . . . . . . st4 . . . st7 . . . . st9 . ."
+        ". . hi st6 . . . . . . st3 . . . . st1 . . ."
+        ". . p . . . st5 . . . st10 . . st2 . . st8 . ."
+        "w . . . . . . . . . . . . . . . . . .";
+    }
+    .Hi{
+        color: #ECE7E1;
+        font-family: Jomolhari;
+        font-size: 14.979vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 11.5px;
+        grid-area: hi;
+        margin-top: 90px;
+    }
+    .Parrafo{
+        color: #ece7e1;
+        width: 300px;
+        height: 271px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Jomolhari;
+        font-size: 1.842vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+        grid-area: p;
+    }
+    .cwaves{
+        
+       grid-area: w;
+        width: 100vw;
+        height: 100%;
+        position: relative;
+    }
+    .wave1{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 13.854vw;
+        animation: ondulacion1 4s linear infinite;
+       
+    }
+    .wave2{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 15vw;
+        animation: ondulacion2 4s linear infinite;
+    }
+    .wave3{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 13.854vw;
+        animation: ondulacion3 4s linear infinite;
+    }
+    .bloqueador{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4vw;
+        background-color: #ECE7E1;
+    }
+
+ 
+    
+    @keyframes ondulacion1 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.75);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes ondulacion2 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.90);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+    @keyframes ondulacion3 {
+        0% {
+            transform: scaleY(1);
+        }
+        50% {
+            transform: scaleY(0.85);
+        }
+        100% {
+            transform: scaleY(1);
+        }
+    }
+
+
+    .star1{
+        grid-area: st1;
+        width: 30px;
+        height: 29px;
+        flex-shrink: 0;
+        animation: moverDerecha 250s infinite alternate;
+        
+        }
+        .star2{
+            grid-area: st2;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal3 250s infinite alternate;
+        }
+        .star3{
+            grid-area: st3;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal3 250s infinite alternate;
+        }
+        .star4{
+            grid-area: st4;
+            width: 34px;
+        height: 34px;
+        flex-shrink: 0;
+        animation: moverDerecha 250s infinite alternate;
+        }
+        .star5{
+            grid-area: st5;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverArriba 250s infinite alternate;
+        }
+        .star6{
+            grid-area: st6;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverDiagonal1 250s infinite alternate;
+        }
+        .star7{
+            grid-area: st7;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverIzquierda 250s infinite alternate;
+        }
+        .star8{
+            grid-area: st8;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverIzquierda 250s infinite alternate;
+        }
+        .star9{
+            grid-area: st9;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverArriba 250s infinite alternate;
+        }
+        .star10{
+            grid-area: st10;
+            width: 19px;
+        height: 18px;
+        flex-shrink: 0;
+        animation: moverAbajo 250s infinite alternate;
+        }
+        /*KeyFrames*/
+        @keyframes moverIzquierda {
+            to {
+                transform: translateX(-300px); /* Mueve hacia la izquierda */
+            }
+        }
+        @keyframes moverDerecha {
+            to {
+                transform: translateX(100px); /* Mueve hacia la derecha */
+            }
+        }
+        /* Definición de la animación arriba */
+        @keyframes moverArriba {
+            to {
+                transform: translateY(-200px); /* Mueve hacia arriba */
+            }
+        }
+        /* Definición de la animación abajo */
+        @keyframes moverAbajo {
+            to {
+                transform: translateY(200px); /* Mueve hacia abajo */
+            }
+        }
+        /*Diagonales*/
+        @keyframes moverDiagonal1 {
+            to {
+                transform: translate(-100px, -100px); /* Mueve hacia arriba-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 2 (arriba-derecha) */
+        @keyframes moverDiagonal2 {
+            to {
+                transform: translate(250px, -250px); /* Mueve hacia arriba-derecha */
+            }
+        }
+        /* Definición de la animación diagonal 3 (abajo-izquierda) */
+        @keyframes moverDiagonal3 {
+            to {
+                transform: translate(-200px, 200px); /* Mueve hacia abajo-izquierda */
+            }
+        }
+        /* Definición de la animación diagonal 4 (abajo-derecha) */
+        @keyframes moverDiagonal4 {
+            to {
+                transform: translate(150px, 150px); /* Mueve hacia abajo-derecha */
+            }
+        }
+}
+

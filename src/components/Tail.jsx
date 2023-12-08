@@ -1,8 +1,10 @@
 import "./styles/querys/Tail/TailDesktop.css";
+import "./styles/querys/Tail/TailTablet.css";
+import "./styles/querys/Tail/TailIphone.css";
 
 const Tail = () => {
   return (
-    <section className="Main">
+    <section id="Main">
         <div className="Hi">
           <p>Hi</p>
         </div>

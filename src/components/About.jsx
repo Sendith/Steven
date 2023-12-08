@@ -1,7 +1,7 @@
 import "./styles/querys/Abouts.styles/AboutQueryDesktop.css";
 import "./styles/querys/Abouts.styles/AboutQueryTablet.css";
 import "./styles/querys/Abouts.styles/AboutQueryIphone.css";
-
+import "./Tail.jsx"
 
 const About = () => {
   return (
@@ -69,7 +69,7 @@ const About = () => {
             - 4 years experience in Product Management<br />
             </p>
         </div>
-        <button className="Contact_Me">Contact Me</button>
+        <button className="Contact_Me"> <a href="#Main"></a>Contact Me</button>
         <h3 className="skills">Skills</h3>
         <div className="UI">
             <p>
