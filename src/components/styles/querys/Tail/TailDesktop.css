@@ -50,7 +50,7 @@
         left: 0;
         width: 100%;
         height: 13.854vw;
-        animation: ondulacion1 4s linear infinite;
+       
        
     }
     .wave2{
@@ -96,7 +96,7 @@
             transform: scaleY(1);
         }
         50% {
-            transform: scaleY(0.90);
+            transform: scaleY(0.95);
         }
         100% {
             transform: scaleY(1);

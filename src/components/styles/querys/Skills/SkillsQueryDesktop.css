@@ -1,0 +1,82 @@
+@media only screen and (min-width: 992px)  {
+
+.Contenedor__Skills{
+    width: 95%;
+    margin-left: 5%;
+    height:100vh;
+    background-color: #ece7e1;
+    display: grid;
+    grid-template-columns:"" ;
+    grid-template-rows:"" ;
+    grid-template-areas: "";
+}
+
+.Contenedor__celular{
+    width: 300px;
+    height: 565px;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Marco__iphone{
+    position:absolute;
+    width: 321px;
+    height: 565px;
+    z-index: 2;
+    
+}
+
+.Marco__fond{
+    position: relative;
+    width: 250px;
+    height: 525px;
+    border-radius: 50px;
+}
+.Marco__cloud{
+    position: absolute;
+    z-index: 1;
+    margin-top: 426px;
+    width: 300px;
+    transform: rotate(-9deg);
+}
+
+.Orientador__celular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-right:5% ;
+    padding-bottom: 4%;
+}
+
+#Boton__cv{
+  
+
+
+    color: #FFF;
+    background-color: #1a1818;
+    font-family: Jomolhari;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 47.5px;
+    margin-left: 600px;
+    margin-top: 630px;
+    transition: width 0.2s ease;
+}
+
+#Boton__cv:hover{
+    background-color: #000000;
+}
+
+
+}
