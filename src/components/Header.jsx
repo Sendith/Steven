@@ -1,10 +1,11 @@
 import "./styles/querys/Headers/HeadersQueryDesktop.css";
 import "./styles/querys/Headers/HeadersQueryTablet.css";
 import "./styles/querys/Headers/HeadersQueryiPhone.css";
+import $ from "./utils/jquery";
 const Header = () => {
   return (
     <main>
-        <nav>
+        <nav id="Navegadors">
           <h2 className="h2__Steven">Steven</h2>
           <a className="h2__linkedin" target="blank" href="https://www.linkedin.com/in/bramdon-stiven-blanco-contreras-7182331b5/"><h2 >LN</h2></a>
          <a className="h2__whats" href="https://w.app/BUHZlO" target="blank"><h2 >WH</h2></a> 

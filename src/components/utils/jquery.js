@@ -1,5 +1,37 @@
 import $ from 'jquery';
 
+$(document).ready(function () {
+  // Configura la posición a partir de la cual deseas que el scroll suba al principio
+  var puntoScrollSubida = 3500;
+
+  // Agrega un evento de scroll al documento
+  $(document).on("scroll", function () {
+    // Obtiene la posición actual del scroll
+    var desplazamientoActual = $(document).scrollTop();
+    let navegadors=$('.h2__Steven')
+    let linkedin=$('.h2__linkedin')
+    let whats=$('.h2__whats')
+    let github=$('.h2__github')
+    let dos=$('._dos')
+    if (desplazamientoActual > puntoScrollSubida) {
+      // Si sí, anima el scroll hacia arriba
+      navegadors.css("color", "white");
+      linkedin.css("color", "white");
+      whats.css("color", "white");
+      github.css("color", "white");
+      dos.css("color", "white");
+    }
+
+    if (desplazamientoActual < puntoScrollSubida) {
+      // Si sí, anima el scroll hacia arriba
+      navegadors.css("color", "black");
+      linkedin.css("color", "black");
+      whats.css("color", "black");
+      github.css("color", "black");
+      dos.css("color", "black");
+    }
+  });
+});
 //Funciona al hacerle al hover
 $(document).ready(function() {
     var escondidos = $(".escondido");
